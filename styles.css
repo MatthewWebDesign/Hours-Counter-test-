@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin';
+}
+
+body {
+    background-image: url(bkg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full height of the viewport */
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #211103;
+    margin-bottom: 50px; /* Adjust this value to move the h2 closer to the h1 */
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30vh;
+    color: #211103;
+    line-height: 1; /* Ensures the h1 height is properly aligned */
+}
